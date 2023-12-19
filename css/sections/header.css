@@ -1,38 +1,38 @@
 .header__nav {
-    display: flex;
-    overflow: hidden;
+  display: flex;
+  overflow: hidden;
 }
 
 .header__logo {
-    display: flex;
-    flex: 1;
-    
-    position: relative;
-    padding: 1.25rem;
-    align-items: center;
+  display: flex;
+  flex: 1;
+
+  position: relative;
+  padding: 1.25rem;
+  align-items: center;
 }
 
 .header__logo-overlay {
-    position: absolute;
-    inset: 0;
-    width: 100%;
+  position: absolute;
+  inset: 0;
+  width: 100%;
 
-    background-color: var(--primary-color);
-    z-index: 1;
+  background-color: var(--primary-color);
+  z-index: 1;
 }
 
 .header__logo h4 {
-    padding-left: 1.875rem;
+  padding-left: 1.875rem;
 
-    color: #fff;
-    z-index: 2;
+  color: #fff;
+  z-index: 2;
 }
 
 .header__menu,
 .header__menu-mobile {
   padding: 20px;
 
-  flex: 1.235;
+  flex: 1.236;
   display: flex;
   justify-content: flex-end;
   align-items: center;
