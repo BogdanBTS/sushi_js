@@ -10,6 +10,7 @@
   position: relative;
   padding: 1.25rem;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .header__logo-overlay {
